@@ -163,6 +163,10 @@ python -X utf8 -m unittest discover -s tests -v
 
 本仓库的 `.gitignore` 已忽略这些常见文件名；提交前仍请检查 `git status`。
 
+## 致谢与方法来源
+
+本项目在设计之初受到 [Kico-Tachagemofet 的 Bibliomancy Reading · 书占解读法](https://github.com/Kico-Tachagemofet/bibliomancy-reading) 启发，尤其是把随机文本作为具体场景细读、区分文本证据与推测，并说明现实类比边界的做法。在此基础上，本项目针对歌词另行设计了本地建库、四行随机抽取、全歌局部校正、分级文学互文、日语语言研究与作品语境检索流程。感谢 Kico-Tachagemofet 提供最初的方法启发。
+
 ## 贡献
 
 见 [CONTRIBUTING.md](CONTRIBUTING.md)。

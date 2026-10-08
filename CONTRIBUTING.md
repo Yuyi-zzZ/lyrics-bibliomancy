@@ -2,6 +2,12 @@
 
 感谢贡献。此项目的目标是改进本地语料导入、可复现抽取和严谨的歌词／互文阅读，不收集或分发歌词语料。
 
+## 方法来源与第三方署名
+
+本项目的方法来源致谢见 [README.md](README.md)，其中包括 Kico-Tachagemofet 的 [Bibliomancy Reading · 书占解读法](https://github.com/Kico-Tachagemofet/bibliomancy-reading) 所提供的最初启发。这是方法来源说明，不表示对方直接提交了本仓库代码。
+
+贡献中若引入第三方代码、文本、数据或具体表达，必须注明来源与许可证，并确认该许可证允许本项目使用和再发布；公开可读不等于已经授权。不能提交无法确认权利状态的受版权保护材料。
+
 ## 开始前
 
 - 不提交歌词、受版权保护的长篇原典、用户问题、抽取日志或本地绝对路径。
@@ -41,9 +47,9 @@
 提交前运行：
 
 ```powershell
-python -m unittest discover -s tests -v
+python -X utf8 -m unittest discover -s tests -v
 
-python "<CODEX_HOME>\skills\.system\skill-creator\scripts\quick_validate.py" `
+python -X utf8 "<CODEX_HOME>\skills\.system\skill-creator\scripts\quick_validate.py" `
   "<CODEX_HOME>\skills\lyrics-bibliomancy"
 ```
 
