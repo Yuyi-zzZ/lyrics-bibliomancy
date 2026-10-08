@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local corpus and private source materials
+*.docx
+library.json
+references.json
+sources.json
+parse_report.json
+draws.jsonl
+intertext_enrichment*.jsonl
+intertext_claims.jsonl
+language_notes.jsonl
+work_context_index.jsonl
+data/
+private-data/
+/lyrics-bibliomancy-data/

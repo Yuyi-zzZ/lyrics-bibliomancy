@@ -1,0 +1,4 @@
+interface:
+  display_name: "歌词占卜"
+  short_description: "从本地歌词抽取四行，结合互文与作品语境进行文本占读"
+  default_prompt: "使用 $lyrics-bibliomancy 从我的本地歌词库抽取四行，并结合命中的互文与作品语境解读。"
